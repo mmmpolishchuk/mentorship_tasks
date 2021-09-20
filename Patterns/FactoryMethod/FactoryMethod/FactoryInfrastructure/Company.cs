@@ -2,7 +2,7 @@
 {
     public abstract class Company
     {
-        protected abstract ICompany CreateCompany();
+        public abstract ICompany CreateCompany();
 
         public void GetStockPrice()
         {

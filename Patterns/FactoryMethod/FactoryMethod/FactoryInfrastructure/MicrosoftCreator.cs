@@ -2,7 +2,7 @@
 {
     public class MicrosoftCreator : Company
     {
-        protected override ICompany CreateCompany()
+        public override ICompany CreateCompany()
         {
             return new Models.Microsoft();
         }

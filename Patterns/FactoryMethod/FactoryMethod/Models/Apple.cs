@@ -1,5 +1,4 @@
 ﻿using System;
-using AbstractFactory;
 using FactoryMethod.FactoryInfrastructure;
 
 namespace FactoryMethod.Models
@@ -14,7 +13,7 @@ namespace FactoryMethod.Models
         {
             StockPrice = _connection.GetRealTimePrice(Ticker);
             
-            Console.WriteLine("Current Google stock price : " + StockPrice);
+            Console.WriteLine("Current Apple stock price : " + StockPrice);
         }
     }
 }

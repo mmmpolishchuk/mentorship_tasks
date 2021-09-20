@@ -1,8 +1,7 @@
-﻿using FactoryMethod;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using RestSharp;
 
-namespace AbstractFactory
+namespace FactoryMethod
 {
     public class Connection : IConnection
     {
