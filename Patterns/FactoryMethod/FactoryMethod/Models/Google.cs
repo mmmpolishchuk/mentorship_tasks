@@ -1,5 +1,4 @@
 ﻿using System;
-using AbstractFactory;
 using FactoryMethod.FactoryInfrastructure;
 
 namespace FactoryMethod.Models

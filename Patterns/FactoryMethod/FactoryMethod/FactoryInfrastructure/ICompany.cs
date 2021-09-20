@@ -2,7 +2,7 @@
 {
     public interface ICompany
     {
-        public double StockPrice { get; set; }
+        public double StockPrice { get; }
         void GetCurrentStockPrice();
     }
 }

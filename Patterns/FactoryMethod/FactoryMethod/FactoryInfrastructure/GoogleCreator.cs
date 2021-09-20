@@ -4,7 +4,7 @@ namespace FactoryMethod.FactoryInfrastructure
 {
     public class GoogleCreator : Company
     {
-        protected override ICompany CreateCompany()
+        public override ICompany CreateCompany()
         {
             return new Google();
         }
